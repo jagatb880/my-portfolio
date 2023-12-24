@@ -160,9 +160,14 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
+        name: "SVN",
+        image:
+          "https://svn.apache.org/repos/asf/subversion/svn-logos/images/tyrus-svn2.png",
+      },
+      {
         name: "Bitbucket",
         image:
-          require('../images/bitbucket.png'),
+          "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/44_Bitbucket_logo_logos-512.png",
       },
       {
         name: "VS Code",
@@ -191,7 +196,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "https://media.licdn.com/dms/image/C560BAQGIZWbix5emLA/company-logo_200_200/0/1662109754071/robosoft_technologies_logo?e=1711584000&v=beta&t=A5Gljnkv61333m2GsidtlVhwtcdOtwyGb-rIh7vO6Js",
     role: "Senior Software Engineer",
     company: "Robosoft Technologies",
     date: "Feb 2023 - Present",
@@ -212,7 +217,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: "https://companieslogo.com/img/orig/CAP.PA-9b4110b0.png?t=1651902188",
     role: "Consultant",
     company: "Capgemini Technology Services India Ltd.",
     date: "May 2021 - Feb 2023",
@@ -230,31 +235,36 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
+    img: "https://www.invincix.com/wp-content/uploads/2022/01/favicon-32x32-1.png",
+    role: "Consultant",
+    company: "Invincix Solutions Pvt. Ltd ",
     date: "June 2023 - July 2023",
     desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
+      "Ionic",
+      "Angular",
+      "Typescript",
+      "Cordova",
       "HTML",
       "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
     ],
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
+    img: "https://sdrc.co.in/wp-content/uploads/2018/02/fav.png",
+    role: "Technical Analyst",
+    company: "Siddha Development Research and Consultancy",
     date: "May 2023 - Present",
     desc: "Contributing to different open-source projects and learn from industry experts",
+    skills: [
+      "Ionic",
+      "Angular",
+      "Typescript",
+      "Cordova",
+      "PWA",
+      "HTML",
+      "CSS",
+    ],
     doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
   },
 ];
